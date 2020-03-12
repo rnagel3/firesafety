@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/robbie/Documents/Fire and Life Safety"
+		},
+		{
+			"path": "/Users/robbie/Documents/SASS"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Fire and Life Safety"
+	}
+}
