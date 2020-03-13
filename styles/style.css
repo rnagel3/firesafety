@@ -111,7 +111,7 @@ body {
 
 .how-card {
   min-width: 350px;
-  min-height: 400px;
+  min-height: 500px;
   width: 1rem;
   margin: 20px;
   position: relative;
@@ -132,7 +132,7 @@ body {
 
 .how-card .card-content {
   display: inline-block;
-  min-height: 450px;
+  min-height: 500px;
   background-color: #dce4f6;
   font-size: 1.5rem;
   text-align: center;
@@ -142,6 +142,7 @@ body {
   font-weight: 300;
   vertical-align: middle;
   border-radius: 8px 8px 8px 8px;
+  position: relative;
 }
 
 .how-card .card-content img {
@@ -152,10 +153,13 @@ body {
 .how-card .card-content p {
   background-color: #dce4f6;
   padding: 10px;
+  position: relative;
 }
 
 .how-card .card-content p.false-button {
   color: red;
+  position: absolute;
+  bottom: 0;
 }
 
 .how-card .card-content p img {

@@ -112,7 +112,7 @@ body {
 
 .how-card {
     min-width: 350px;
-    min-height: 400px;
+    min-height: 500px;
     width: 1rem;
     margin: 20px;
     position: relative;
@@ -127,7 +127,7 @@ body {
 
 .card-content {
     display: inline-block;
-    min-height: 450px;
+    min-height: 500px;
     background-color: $primaryCardBackground;
     font-size: 1.5rem;
     text-align: center;
@@ -138,6 +138,7 @@ body {
     font-weight: 300;
     vertical-align: middle;
     border-radius: 8px 8px 8px 8px;
+    position: relative;
 
     img {
         max-width: 100%;
@@ -147,9 +148,12 @@ body {
     p {
         background-color: $primaryCardBackground;
         padding: 10px;
+        position: relative;
 
         &.false-button {
             color: red;
+            position: absolute;
+            bottom: 0;
         }
 
         img {
