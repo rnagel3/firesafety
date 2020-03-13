@@ -108,6 +108,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
+
+    a { 
+        color: black;
+    }
 }
 
 .how-card {
@@ -151,10 +155,10 @@ body {
         position: relative;
 
         &.false-button {
-            color: red;
             position: absolute;
             bottom: 0;
             right: 0;
+            font-weight: bold;
         }
 
         img {

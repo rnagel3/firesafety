@@ -109,6 +109,10 @@ body {
   margin: 20px;
 }
 
+.features-inner a {
+  color: black;
+}
+
 .how-card {
   min-width: 350px;
   min-height: 500px;
@@ -157,10 +161,10 @@ body {
 }
 
 .how-card .card-content p.false-button {
-  color: red;
   position: absolute;
   bottom: 0;
   right: 0;
+  font-weight: bold;
 }
 
 .how-card .card-content p img {
