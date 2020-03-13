@@ -13,10 +13,10 @@
 $primaryHeader :  #F6E7DC;
 $primaryHeaderText: white;
 $primaryBackground :  #F6E7DC;
-$primaryCardBackground: #dce4f6;
+$primaryCardBackground: lightgrey;
 $primaryFooter: black;
 
-
+//#dce4f6;
 // hover color variables
 $hoverBackground : lightgrey;
 $hoverColor : black;
@@ -137,7 +137,7 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     vertical-align: middle;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 0px 0px;
     position: relative;
 
     img {
@@ -154,6 +154,7 @@ body {
             color: red;
             position: absolute;
             bottom: 0;
+            right: 0;
         }
 
         img {
